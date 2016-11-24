@@ -12,7 +12,7 @@ var i2c = new port.I2C(I2CAddress);
 // Wake up the accelerometer
 var setActive = function (nextFunction) {
   var CTRL_REG1 = 0x2A;
-  i2c.send(new Buffer([CTRL_REG1, 0x01]), function () {
+  i2c.send(new Buffer([CTRL_REG1, 0b00000001]), function () {
     nextFunction();
   });
 };
