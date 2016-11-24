@@ -1,4 +1,4 @@
-Demo code for SG_Next presentation
+Demo code for Devfest.Asia presentation
 ======
 Devfest.Asia November 2016
 
