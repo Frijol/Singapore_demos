@@ -1,3 +1,6 @@
+// Send a message over I2C to accel-mma84 and get one back
+// Pins: SDA, SCL
+
 // Tell Tessel what pins to use
 var tessel = require('tessel');
 var port = tessel.port.A;
@@ -18,5 +21,5 @@ i2c.transfer(new Buffer([registerAddressToRead]), bytesToRead, function (error, 
   if (error) {
     console.log(error);
   }
-  console.log(dataRecieved);
+  console.log(dataRecieved); // Should be 0x2A
 });

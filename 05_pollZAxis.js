@@ -1,3 +1,6 @@
+// Poll the OUT_Z_MSB register of to accel-mma84
+// Pins: SDA, SCL
+
 // Tell Tessel what pins to use
 var tessel = require('tessel');
 var port = tessel.port.A;

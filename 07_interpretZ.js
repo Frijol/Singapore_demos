@@ -1,3 +1,6 @@
+// Print the orientation of the project
+// Pins: SDA, SCL
+
 // Tell Tessel what pins to use
 var tessel = require('tessel');
 var port = tessel.port.A;

@@ -1,3 +1,6 @@
+// Demonstrate a digital signal
+// Pins: any logic analyzer pin to pin 0 on port A
+
 var tessel = require('tessel');
 var port = tessel.port.A;
 
@@ -7,5 +10,3 @@ setInterval(function () {
 }, 100);
 
 console.log("Blinking a pin");
-
- 

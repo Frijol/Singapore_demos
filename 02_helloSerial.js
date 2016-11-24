@@ -1,3 +1,6 @@
+// Send the message "Hello, World!" over serial on port A
+// Pins: TX, RX
+
 var tessel = require('tessel');
 var port = tessel.port.A;
 

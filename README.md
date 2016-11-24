@@ -6,6 +6,15 @@ Accompanying slides are [here](https://docs.google.com/presentation/d/1sNKGyS73G
 
 ## Demos
 
+Note: in my talk, I go through these demos:
+
+* 02_helloSerial
+* 05_pollZAxis
+* 06_pollActiveZ
+* 07_interpretZ
+
+The other ones are bonus :)
+
 ### 01_digital
 Demonstration toggling one pin to read on a logic analyzer
 
